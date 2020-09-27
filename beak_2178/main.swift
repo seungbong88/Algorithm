@@ -32,7 +32,7 @@ func input() -> [[Int]] {
         return [[]]
     }
     
-    let row = Int(rowAndCol.first ?? "") ?? 0
+    let row = Int(rowAndCol.first ?? "") ?? 0 
     for _ in 0..<row {
         var rowArr: [Int] = []
         let line = readLine() ?? ""
