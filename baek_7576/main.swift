@@ -22,7 +22,7 @@ func input() -> [[Int]] {
     guard let rowAndColomn = readLine()?.components(separatedBy: " ") else { return [[]] }
     let col = Int(rowAndColomn[0]) ?? 0
     let row = Int(rowAndColomn[1]) ?? 0
-
+ 
     var map = [[Int]](repeating: [Int](repeating: 0, count: col), count: row)
     for i in 0..<row {
         guard let rowDatas = readLine()?.components(separatedBy: " ") else { return [[]] }
