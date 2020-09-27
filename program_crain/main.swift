@@ -22,7 +22,7 @@ func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
         if target == 0 {
             break;
         }
-        
+         
         // 바구니와 비교하기
         if basket.count == 0 {
             basket.append(target)
